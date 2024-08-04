@@ -1,4 +1,4 @@
-# MITM Attack 
+# <div align="center">MITM Attack</div>
 
 ## Introduction
 
@@ -7,7 +7,7 @@ The rise of digital communication and the reliance on networked systems have mad
 ## Choice of a Rogue AP setup
 
 ***Etttercap***
-- Ettercap is a comprehensive suite for man-in-the-middle attacks. It features sniffing of live connections and content filtering. It supports active and passive breakdown of many protocols and includes many features for network and host analysis.
+Ettercap is a comprehensive suite for man-in-the-middle attacks. It features sniffing of live connections and content filtering. It supports active and passive breakdown of many protocols and includes many features for network and host analysis.
 
 ***Why Ettercap?***
 
@@ -24,25 +24,25 @@ The rise of digital communication and the reliance on networked systems have mad
 ## Step-by-Step Deployment
 
 ***Launch Ettercap
-- Start Ettercap in graphical mode using the command sudo ettercap -G
+<div align="center">Start Ettercap in graphical mode using the command sudo ettercap -G</div>
 <p align="center"><img src=images/Picture1.png></p>
 
 ---
 
 ***Selecting the Network Interface***
-- Select the network interface connected to the local network
+<div align="center">Select the network interface connected to the local network</div>
 <p align="center"><img src=images/Picture2.png></p>
 <p align="center"><img src=images/Picture3.png></p>
 
 ---
 
 ***Scanning for Hosts***
-- Use the “Host” list to scan for available devices on the network
+<div align="center">Use the “Host” list to scan for available devices on the network</div>
 <p align="center"><img src=images/Picture4.png></p>
 <p align="center"><img src=images/Picture5.png></p>
 <p align="center"><img src=images/Picture6.png></p>
 
-- Added the gateway to Target1 and the victim IP to Target2
+<div align="center">Added the gateway to Target1 and the victim IP to Target2</div>
 <p align="center"><img src=images/Picture7.png></p>
 <p align="center"><img src=images/Picture8.png></p>
 <p align="center"><img src=images/Picture9.jpg></p>
@@ -50,30 +50,30 @@ The rise of digital communication and the reliance on networked systems have mad
 ---
 
 ***ARP Poisoning***
-- Initiated ARP poisoning by selecting MITM menu
+<div align="center">Initiated ARP poisoning by selecting MITM menu</div>
 <p align="center"><img src=images/Picture10.jpg></p>
 <p align="center"><img src=images/Picture11.jpg></p>
-- Ensure “Sniff remote connections” is checked 
+<div align="center">Ensure “Sniff remote connections” is checked</div>
 <p align="center"><img src=images/Picture12.jpg></p>
 
 ---
 
 ***Start Sniffing***
-- Begin to capture packets by clicking OK
+<div align="center">Begin to capture packets by clicking OK</div>
 <p align="center"><img src=images/Picture13.jpg></p>
 <p align="center"><img src=images/Picture14.jpg></p>
 
 ---
 
 ***View Captured data***
-- Select the Ettercap menu
+<div align="center">Select the Ettercap menu</div>
 <p align="center"><img src=images/Picture15.jpg></p>
-- Select View option
+<div align="center">Select View option</div>
 <p align="center"><img src=images/Picture16.jpg></p>
-- Select Profiles
+<div align="center">Select Profiles</div>
 <p align="center"><img src=images/Picture17.jpg></p>
 <p align="center"><img src=images/Picture18.jpg></p>
-- Access “vulnweb.com”, select a vulnerable website from the Windows VM, and entered mock credentials for the login process. Next, monitor the Ettercap console on the Kali VM for the credentials transmitted in plain text over HTTP.
+<div align="center">Access “vulnweb.com”, select a vulnerable website from the Windows VM, and entered mock credentials for the login process. Next, monitor the Ettercap console on the Kali VM for the credentials transmitted in plain text over HTTP.</div>
 <p align="center"><img src=images/Picture19.jpg></p>
 
 ## Preventative Measures:
