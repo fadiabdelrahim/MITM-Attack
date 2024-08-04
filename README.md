@@ -1,4 +1,4 @@
-***DISCLAIMER:*** *This is intended for ethical hacking educational purpose. Performing hacking attempts on computers that you do not own (without permission) is illegal! Do not attempt to gain access to devices that you do not own!*
+***DISCLAIMER:*** *This is intended for ethical hacking educational purpose. Performing hacking attempts on any computers that you do not own (without permission) is illegal! Do not attempt to gain access to devices that you do not own!*
 
 # <div align="center">MITM Attack</div>
 
@@ -91,4 +91,4 @@ This project highlights the profound security risks posed by Man-in-the-Middle (
 
 ## Full Disclaimer
 
-Any action and or activities related to the material contained within this repository is solely your responsibility. The misuse of the tools and information in this repo could result in criminal charges being brought against the person in question. The author will not be held responsible in the event any criminal charges are brought against any individuals misusing the tools and information in this repository for malicious purpose or to break the law.
+*Any action and or activities related to the material contained within this repository is solely your responsibility. The misuse of the tools and information in this repo could result in criminal charges being brought against the person in question. The author will not be held responsible in the event any criminal charges are brought against any individuals misusing the tools and information in this repository for malicious purpose or to break the law.*
