@@ -1,3 +1,5 @@
+***DISCLAIMER:*** *This is intended for ethical hacking educational purpose. Performing hacking attempts on computers that you do not own (without permission) is illegal! Do not attempt to gain access to devices that you do not own!*
+
 # <div align="center">MITM Attack</div>
 
 ## Introduction
@@ -87,22 +89,6 @@ Ettercap is a comprehensive suite for man-in-the-middle attacks. It features sni
 This project highlights the profound security risks posed by Man-in-the-Middle (MITM) attacks, particularly against unencrypted communication protocols. The use of Ettercap to perform these attacks underscores the vulnerabilities inherent in HTTP traffic and the critical importance of employing secure communication channels like HTTPS. Through the practical emulation of a MITM attack, this project has demonstrated how easily attackers can intercept and manipulate data when adequate security measures are not in place. The experience has reinforced the necessity of encryption, vigilant security practices, and the continuous updating of software to protect against such threats. 
 
 
+## Full Disclaimer
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Any action and or activities related to the material contained within this repository is solely your responsibility. The misuse of the tools and information in this repo could result in criminal charges being brought against the person in question. The author will not be held responsible in the event any criminal charges are brought against any individuals misusing the tools and information in this repository for malicious purpose or to break the law.
